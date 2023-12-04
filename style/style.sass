@@ -1,0 +1,407 @@
+body 
+  font-family: 'Montserrat', sans-serif
+  background: #fff
+
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+
+body::-webkit-scrollbar
+  width: 7px
+
+body::-webkit-scrollbar-track
+  background: #ffffff
+
+body::-webkit-scrollbar-thumb
+  background-color: #ff8686
+  border-radius: 20px
+  border: 1px solid #ff8686
+
+.hide
+  opacity: 0
+
+#container-preloader
+  width: 100%
+  height: 100vh
+  margin-top: -20px
+  position: fixed
+  z-index: 1000
+  background-color: #fff
+
+  transition: .8s
+
+.mask
+  width: 100%
+  height: 100%
+  position: fixed
+  top: 0
+  z-index: 1000
+  transition: 0.6s
+  display: flex
+  justify-content: center
+  align-items: center
+.loader
+  width: 65px
+  height: 65px
+  border: 10px solid rgba(135, 17, 17, 0.6)
+  border-radius: 50%
+  border-left-color: #a10d0d
+  animation: loader 1.3s linear infinite
+@keyframes loader
+  100%
+    transform: rotate(360deg)
+
+#global
+  background: #f0f0f0
+  height: 40vh
+
+  .top-g
+    display: flex
+    height: 40vh
+    flex-direction: column
+    align-items: center
+    justify-content: center
+
+    p:nth-child(1)
+      font-weight: 600
+      letter-spacing: .5px
+      font-size: 14px
+      text-align: left
+    p:nth-child(2)
+      text-transform: uppercase
+      color: #000
+      font-size: 35px
+      font-weight: 700
+      letter-spacing: .6px
+      margin: 0
+
+      span
+        color: red
+    p:nth-child(3)
+      margin: 20px 0 0
+      font-weight: 600
+      letter-spacing: .5px
+      font-size: 14px
+
+#gamesOut
+  margin: 70px 220px 0
+  .container
+    .title-all-top
+      display: flex
+      justify-content: center
+
+      span
+        color: red
+        margin-top: 20px
+
+      .titleGames
+        font-weight: 700
+        letter-spacing: .7px
+        font-size: 25px
+        text-transform: uppercase
+        margin: 24px 10px 70px
+
+    .games-all
+      display: flex
+      align-items: center
+      justify-content: space-between
+
+      text-align: center
+
+      .game-1
+        cursor: pointer
+        p:nth-child(1)
+          font-weight: 800
+          font-size: 40px
+          letter-spacing: 1px
+          margin: 0
+        p:nth-child(2)
+          font-weight: 400
+          letter-spacing: .8px
+          margin: 2px 0 0
+          font-size: 14px
+          text-transform: uppercase
+        .vs-class
+          display: flex
+          justify-content: center
+          margin-top: 7px
+          color: red
+          p
+            font-weight: 600
+            letter-spacing: .8px
+            margin: 2px 5px 0
+          span
+            margin-top: 1px
+            font-size: 14px
+        p:nth-child(4)
+          font-weight: 600
+          letter-spacing: .6px
+          margin: 8px 0 0
+          font-size: 13px
+
+      .game-2
+        cursor: pointer
+        p:nth-child(1)
+          font-weight: 800
+          font-size: 40px
+          letter-spacing: 1px
+          margin: 0
+        p:nth-child(2)
+          font-weight: 400
+          letter-spacing: .8px
+          margin: 2px 0 0
+          font-size: 14px
+          text-transform: uppercase
+        .vs-class
+          display: flex
+          justify-content: center
+          margin-top: 7px
+          color: red
+          p
+            font-weight: 600
+            letter-spacing: .8px
+            margin: 2px 5px 0
+          span
+            margin-top: 1px
+            font-size: 14px
+        p:nth-child(4)
+          font-weight: 600
+          letter-spacing: .6px
+          margin: 8px 0 0
+          font-size: 13px
+
+      .game-3
+        cursor: pointer
+        p:nth-child(1)
+          font-weight: 800
+          font-size: 40px
+          letter-spacing: 1px
+          margin: 0
+        p:nth-child(2)
+          font-weight: 400
+          letter-spacing: .8px
+          margin: 2px 0 0
+          font-size: 14px
+          text-transform: uppercase
+        .vs-class
+          display: flex
+          justify-content: center
+          margin-top: 7px
+          color: red
+          p
+            font-weight: 600
+            letter-spacing: .8px
+            margin: 2px 5px 0
+          span
+            margin-top: 1px
+            font-size: 14px
+        p:nth-child(4)
+          font-weight: 600
+          letter-spacing: .6px
+          margin: 8px 0 0
+          font-size: 13px
+
+      .game-4
+        cursor: pointer
+        p:nth-child(1)
+          font-weight: 800
+          font-size: 40px
+          letter-spacing: 1px
+          margin: 0
+        p:nth-child(2)
+          font-weight: 400
+          letter-spacing: .8px
+          margin: 2px 0 0
+          font-size: 14px
+          text-transform: uppercase
+        .vs-class
+          display: flex
+          justify-content: center
+          margin-top: 7px
+          color: red
+          p
+            font-weight: 600
+            letter-spacing: .8px
+            margin: 2px 5px 0
+          span
+            margin-top: 1px
+            font-size: 14px
+        p:nth-child(4)
+          font-weight: 600
+          letter-spacing: .6px
+          margin: 8px 0 0
+          font-size: 13px
+
+      .game-5
+        cursor: pointer
+        p:nth-child(1)
+          font-weight: 800
+          font-size: 40px
+          letter-spacing: 1px
+          margin: 0
+        p:nth-child(2)
+          font-weight: 400
+          letter-spacing: .8px
+          margin: 2px 0 0
+          font-size: 14px
+          text-transform: uppercase
+        .vs-class
+          display: flex
+          justify-content: center
+          margin-top: 7px
+          color: red
+          p
+            font-weight: 600
+            letter-spacing: .8px
+            margin: 2px 5px 0
+          span
+            margin-top: 1px
+            font-size: 14px
+        p:nth-child(4)
+          font-weight: 600
+          letter-spacing: .6px
+          margin: 8px 0 0
+          font-size: 13px
+
+#dost
+  background-image: url(../../images/dost.jpg)
+  background-repeat: no-repeat
+  background-position: center
+  background-size: cover
+
+  margin-top: 90px
+
+  color: #fff
+
+  .dost-con
+    display: flex
+    align-items: center
+    justify-content: space-between
+
+    background: rgba(0, 0, 0, 0.7)
+    padding: 50px
+
+    .left
+      margin: 0 150px 0 0
+      p
+        font-size: 35px
+        font-weight: 800
+        letter-spacing: .8px
+        color: #fff
+        min-width: 35vw
+        text-wrap: balance
+        line-height: 50px
+
+    .right
+      font-size: 12px
+      letter-spacing: .7px
+
+      p
+        text-wrap: balance
+        line-height: 20px
+
+#mathBio
+  margin: 70px 50px 0
+  .container
+    display: flex
+    justify-content: space-around
+
+    .left
+      .boi-t
+        color: red
+        font-weight: 700
+        letter-spacing: .6px
+        font-size: 25px
+        margin-bottom: 40px
+        text-transform: uppercase
+      .bio
+        font-size: 13px
+        color: #000
+        letter-spacing: .6px
+        line-height: 25px
+        font-weight: 400
+        max-width: 40vw
+
+    .right
+      .titleMath
+        color: red
+        font-weight: 700
+        letter-spacing: .6px
+        font-size: 25px
+        margin-bottom: 40px
+        text-transform: uppercase
+
+        span
+          color: #000
+
+      .con-math
+        display: flex
+        align-items: center
+
+        .leftMath
+          margin-right: 20px
+          .block-1
+            display: flex
+            align-items: center
+            box-shadow: 0 0 6px rgba(0, 0, 0, 0.2)
+            border-radius: 6px
+            margin-bottom: 20px
+            cursor: pointer
+
+            .leftBlock
+              text-align: center
+              background: red
+              color: #fff
+              border-radius: 3px
+              padding: 5px
+              min-width: 53px
+
+              p
+                margin: 3px
+
+            .rightBlock
+              margin: 0 10px 0 10px
+              p
+                margin: 5px
+                font-size: 13px
+                letter-spacing: .7px
+                font-weight: 400
+              p:nth-child(1)
+                font-weight: 600
+                font-size: 15px
+                letter-spacing: .1px
+
+        .rightMath
+          .block-1
+            display: flex
+            align-items: center
+            box-shadow: 0 0 6px rgba(0, 0, 0, 0.2)
+            border-radius: 6px
+            margin-bottom: 20px
+            cursor: pointer
+
+            .leftBlock
+              text-align: center
+              background: red
+              color: #fff
+              border-radius: 3px
+              padding: 5px
+              min-width: 53px
+
+              p
+                margin: 3px
+
+            .rightBlock
+              margin: 0 10px 0 10px
+              p
+                margin: 5px
+                font-size: 13px
+                letter-spacing: .5px
+                font-weight: 400
+              p:nth-child(1)
+                font-weight: 600
+                font-size: 15px
+                letter-spacing: .1px
+
+@import './adaptive/_plash'
+@import './adaptive/_mobile'
